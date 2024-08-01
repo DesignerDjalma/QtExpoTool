@@ -58,7 +58,7 @@ pip install pyqt5 pandas python-docx comtypes
 ### Executar a Aplicação
 
 ```bash
-python xlsxparapdf.py
+python main.py
 ```
 
 ## Uso 📚
