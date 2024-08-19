@@ -280,7 +280,7 @@ class MainWindow(QMainWindow):
         xlsx_output = rf"{self.export_path.text()}/PLANILHA_{datetime.now().strftime('%H%M%S')}.xlsx"
         df_export.to_excel(xlsx_output, index=False)
         QtWidgets.QMessageBox.information(
-            self,
+            self.iface.mainWindow(),
             "Exportação",
             f"Dados exportados com sucesso para: {xlsx_output}",
         )

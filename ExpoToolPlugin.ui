@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Bahnschrift SemiBold</family>
+    <pointsize>10</pointsize>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>ExpoTool</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArquivo">
+    <property name="title">
+     <string>Arquivo</string>
+    </property>
+    <addaction name="actionImportar_xlsx"/>
+    <addaction name="actionImportar_docx"/>
+    <addaction name="separator"/>
+    <addaction name="actionExportar_xlsx"/>
+    <addaction name="actionExportar_docx"/>
+    <addaction name="actionExportar_pdf"/>
+    <addaction name="separator"/>
+    <addaction name="actionSair"/>
+   </widget>
+   <widget class="QMenu" name="menuAjuda">
+    <property name="title">
+     <string>Ajuda</string>
+    </property>
+    <addaction name="actionSobre"/>
+    <addaction name="separator"/>
+    <addaction name="actionGithub"/>
+   </widget>
+   <addaction name="menuArquivo"/>
+   <addaction name="menuAjuda"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionImportar_xlsx">
+   <property name="text">
+    <string>Importar .xlsx</string>
+   </property>
+  </action>
+  <action name="actionImportar_docx">
+   <property name="text">
+    <string>Importar .docx</string>
+   </property>
+  </action>
+  <action name="actionExportar_xlsx">
+   <property name="text">
+    <string>Exportar .xlsx</string>
+   </property>
+  </action>
+  <action name="actionExportar_docx">
+   <property name="text">
+    <string>Exportar .docx</string>
+   </property>
+  </action>
+  <action name="actionExportar_pdf">
+   <property name="text">
+    <string>Exportar .pdf</string>
+   </property>
+  </action>
+  <action name="actionSair">
+   <property name="text">
+    <string>Sair</string>
+   </property>
+  </action>
+  <action name="actionSobre">
+   <property name="text">
+    <string>Sobre</string>
+   </property>
+  </action>
+  <action name="actionGithub">
+   <property name="text">
+    <string>Github</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
