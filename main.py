@@ -359,7 +359,7 @@ class MainWindow(QMainWindow):
         self.btn_export_all = QPushButton("Exportar")
         self.btn_export_all.setMaximumWidth(100)
         self.btn_export_all.setLayoutDirection(1)
-        self.btn_export_all.clicked.connect(self.export_all)
+        self.btn_export_all (self.export_all)
 
         # Section: Import .xlsx
         self.import_docxmodel_layout = QHBoxLayout()
