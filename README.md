@@ -77,7 +77,7 @@ O modelo de documento .docx para ser usado estará na pasta `docs`.
 
 ## Licença 📄
 
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE), futuramente, para mais detalhes.
 
 ## Agradecimentos 🙌
 
